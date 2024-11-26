@@ -4,6 +4,9 @@ import Hero from "../components/Hero";
 import TwoColumnSection from "../components/TwoColumnSection";
 import CardSection from "../components/CardSection";
 import Footer from "../components/Footer";
+import ReceptorSection from "@/components/ReceptorSection";
+import ClinicalTools from "@/components/ClinicalTools";
+import VideosSection from "@/components/VideosSection";
 
 export default function Home() {
   return (
@@ -12,7 +15,9 @@ export default function Home() {
       <Hero />
       <TwoColumnSection />
       <CardSection />
-      {/* Tilføj flere sektioner */}
+      <ReceptorSection />
+      <ClinicalTools />
+      <VideosSection />
       <Footer />
     </>
   );

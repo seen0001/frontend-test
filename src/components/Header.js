@@ -14,7 +14,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Header med logo og søgefunktion */}
       <header className="flex justify-between items-center px-6 py-8 bg-white shadow">
         <img className="text-xl font-bold" src="/images/dermaworld.svg"></img>
         <div className="relative w-1/3">

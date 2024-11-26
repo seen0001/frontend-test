@@ -24,9 +24,9 @@ export default function CardSection() {
   ];
 
   return (
-    <section className="grid grid-cols-3 gap-6 px-6 py-12 bg-white">
+    <section className="grid lg:grid-cols-3 gap-6 place-items-center bg-white mx-auto lg:px-36 py-12">
       {cards.map((card, index) => (
-        <div key={index} className="border p-6 rounded shadow flex flex-col items-center">
+        <div key={index} className="border p-6 rounded shadow flex flex-col items-center text-center w-96 h-full">
           <img src={card.img} alt={card.alt} className="mb-4 w-56" />
           <h2 className="text-xl font-bold text-mainblue">{card.title}</h2>
           <p className="mt-2 text-gray-600">{card.description}</p>

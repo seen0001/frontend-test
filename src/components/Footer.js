@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-mainblue text-white py-6">
+    <footer className="bg-mainblue text-white py-6 text-sm">
       <div className="flex justify-between px-6">
         <img className="w-24" src="/images/leo-logo.png"></img>
         <div className="text-right font-thin italic">
@@ -12,12 +12,18 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="text-center mt-4">
-        {["Contact", "Imprint", "Conditions", "Terms of use", "Privacy", "Cookie content"].map((link) => (
-          <a key={link} href="#" className="mx-2 text-blue-300">
-            {link}
-          </a>
-        ))}
+      <div className="flex gap-4 justify-center mt-4 text-blue-300">
+        <a href="#">Contact</a>
+        <p>|</p>
+        <a href="#">Imprint</a>
+        <p>|</p>
+        <a href="#">Conditions</a>
+        <p>|</p>
+        <a href="#">Terms of use</a>
+        <p>|</p>
+        <a href="#">Privacy</a>
+        <p>|</p>
+        <a href="#">Cookie content</a>
       </div>
     </footer>
   );

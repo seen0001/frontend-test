@@ -8,6 +8,8 @@ module.exports = {
         foreground: "var(--foreground)",
         maingrey: "#e6e7e8",
         mainblue: "#00609C",
+        mainpink: "#C017A2",
+        backgroundgrey: "#EEEEEE",
       },
     },
   },
