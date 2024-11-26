@@ -1,32 +1,36 @@
-# AKQA Frontend test
- 
-We will now kindly ask you to do a small test so that we can get a bit deeper into your skills as a frontend developer. We created a simple design of a webpage and added it to Figma. 
- 
-Here is the link: https://www.figma.com/file/Eu0LK5ielUlhT4LJoXjGm3/derma-demo 
- 
- 
-## The task
- 
-1. Create a simple one-page website.
- 
-2. Fork the repo and make a pull request.
- 
-We will then clone it from Git and review it and then we would like you to explain how you build it and why you chose to do it that way, on our next conversation. Please use any tech of your choice. 
- 
-The design in Figma consist of sections of content, and it is up to you to be creative and develop what you think that is needed for them. But feel free to add JavaScript functionality in any places that you think it would help.
- 
-## We will be looking at skills like:
- 
-•	Tech stack (React, Webpack, Gulp, NodeJS, Netlify...)
- 
-•	JavaScript (ES5, ES6)
- 
-•	Html and Accessibility (e.g. can you navigate the site with keyboard only, your choice of html tags, ARIA attributes etc.)
- 
-•	CSS, Sass
- 
-•	Responsiveness
- 
-•	Performance (maybe do a Lighthouse test)
- 
-**We look forward to see your work and feel free to ask relevant questions regarding the task.**
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
