@@ -17,7 +17,7 @@ export default function ClinicalTools() {
   ];
 
   return (
-    <section className=" bg-white mx-auto px-6 lg:px-32 py-12">
+    <section className=" bg-white mx-auto px-6 py-12">
       <h2 className="text-mainblue text-3xl italic font-thin">Clinical tools - at a glance</h2>
       <div className="flex flex-col lg:flex-row gap-6 justify-evenly">
         {cards.map((card, index) => (

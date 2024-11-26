@@ -23,7 +23,7 @@ export default function VideosSection() {
   ];
 
   return (
-    <section className=" bg-backgroundgrey px-6 lg:px-32 py-12">
+    <section className=" bg-backgroundgrey px-6 py-12">
       <h2 className="text-mainblue text-3xl italic font-thin mb-2">KOL Videos - get expert insights here</h2>
       <p className="text-black mb-16">See what Key opinion leaders have to say about their experiences with Adtralza®</p>
       <div className="grid lg:grid-cols-2 lg:grid-rows-2 gap-6 place-items-center w-full h-full">

@@ -1,6 +1,6 @@
 export default function TwoColumnSection() {
   return (
-    <section className="bg-backgroundgrey lg:flex items-center lg:px-32 py-12">
+    <section className="bg-backgroundgrey lg:flex items-center px-6 py-12">
       <div className="lg:w-1/2 place-items-center">
         <img src="/images/adtralza-packshot.png" alt="Example" className="rounded" />
       </div>

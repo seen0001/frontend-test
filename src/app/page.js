@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
-      <TwoColumnSection />
-      <CardSection />
-      <ReceptorSection />
-      <ClinicalTools />
-      <VideosSection />
+      <main>
+        <Hero />
+        <TwoColumnSection />
+        <CardSection />
+        <ReceptorSection />
+        <ClinicalTools />
+        <VideosSection />
+      </main>
       <Footer />
     </>
   );
