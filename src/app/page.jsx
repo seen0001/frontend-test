@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="italic font-thin">
         <Hero />
         <TwoColumnSection />
         <CardSection />
