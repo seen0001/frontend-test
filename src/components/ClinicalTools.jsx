@@ -23,11 +23,11 @@ export default function ClinicalTools() {
         <div className="flex flex-col lg:flex-row gap-6 justify-between">
           {cards.map((card, index) => (
             <div key={index} className="border rounded shadow flex flex-col lg:w-1/2">
-              <img src={card.img} alt={card.alt} className="mb-4 w-full" />
-              <div className="px-6 py-12">
-                <h2 className="text-xl font-bold text-mainblue">{card.title}</h2>
-                <p className="mt-2 text-gray-600">{card.description}</p>
-                <a href="#" className="text-pink-500 mt-4 inline-block">
+              <img src={card.img} alt={card.alt} />
+              <div className="px-12 py-12 bg-maingrey">
+                <h3 className="text-3xl font-thin text-mainblue">{card.title}</h3>
+                <p className="mt-4 text-black">{card.description}</p>
+                <a href="#" className="text-mainpink mt-6 inline-block">
                   {card.link}
                 </a>
               </div>

@@ -30,8 +30,8 @@ export default function CardSection() {
           <div key={index} className="grid grid-rows-[auto_auto_1fr_auto] items-start text-center p-6">
             <img src={card.img} alt={card.alt} className="mb-4 w-40 h-40 mx-auto" />
             <h2 className="text-xl text-mainblue mb-2">{card.title}</h2>
-            <p className="mt-2 text-gray-600">{card.description}</p>
-            <a href="#" className="text-pink-500 mt-4">
+            <p className="mt-2 text-black">{card.description}</p>
+            <a href="#" className="text-mainpink mt-4">
               {card.link}
             </a>
           </div>
