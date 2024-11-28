@@ -34,7 +34,7 @@ export default function VideosSection() {
                 Your browser does not support the video tag.
               </video>
               <div className="px-6">
-                <h3 className="text-xl font-bold text-mainblue mt-6 lg:mt-0 font-thin">{card.title}</h3>
+                <h3 className="text-xl text-mainblue mt-6 lg:mt-0 font-thin">{card.title}</h3>
                 <p className="mt-2 text-black">{card.description}</p>
               </div>
             </div>
